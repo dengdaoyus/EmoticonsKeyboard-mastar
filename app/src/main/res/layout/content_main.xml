@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_simple_comment"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Simple Comment Keyboard"
+            android:textAllCaps="false" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_simple_chat_fullscreen"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_simple_comment"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Simple FullScreen Chat Keyboard"
+            android:textAllCaps="false" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_simple_chat_translucent"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_simple_chat_fullscreen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Simple Translucent Chat Keyboard"
+            android:textAllCaps="false" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_simple_chat_coordinatorlayout"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_simple_chat_translucent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Simple Chat CoordinatorLayout Keyboard"
+            android:textAllCaps="false" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_userdef_ui"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_simple_chat_coordinatorlayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Simpe Change UI Keyboard"
+            android:textAllCaps="false" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/btn_qq"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_userdef_ui"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="QQ Keyboard"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/btn_chat_mousns"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_qq"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="btn_chat_mousns"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+</ScrollView>

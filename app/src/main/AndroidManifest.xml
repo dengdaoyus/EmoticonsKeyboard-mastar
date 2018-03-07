@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emoticonskeyboard">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/XhsEmoticonsKeyboardTheme">
+        <activity
+            android:name="com.emoticonskeyboard.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/XhsEmoticonsKeyboardTheme.NoTitle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.emoticonskeyboard.activity.SimpleCommentActivity"
+            android:theme="@style/XhsEmoticonsKeyboardTheme.NoTitle" />
+        <activity
+            android:name="com.emoticonskeyboard.activity.SimpleChatActivity"
+            android:theme="@style/XhsEmoticonsKeyboardTheme.NoTitle" />
+        <activity
+            android:name="com.emoticonskeyboard.activity.SimpleTranslucentChatActivity"
+            android:theme="@style/XhsEmoticonsKeyboardTheme.NoTitle" />
+        <activity
+            android:name="com.emoticonskeyboard.activity.SimpleChatOnCoordinatorLayoutActivity"
+            android:theme="@style/XhsEmoticonsKeyboardTheme.NoTitle" />
+        <activity
+            android:name="com.emoticonskeyboard.userdef.SimpleChatUserDefActivity"
+            android:theme="@style/XhsEmoticonsKeyboardTheme.NoTitle" />
+        <activity
+            android:name="com.emoticonskeyboard.qq.QqActivity"
+            android:theme="@style/XhsEmoticonsKeyboardTheme.NoTitle" />
+        <activity
+            android:name="com.emoticonskeyboard.userdef.MousnsChatActivity"
+            android:theme="@style/XhsEmoticonsKeyboardTheme.NoTitle" />
+    </application>
+
+</manifest>

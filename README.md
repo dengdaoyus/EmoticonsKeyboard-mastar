@@ -10,10 +10,10 @@
 * 赠QQ键盘高仿,不谢
 
 # Screen Recrod
-<img src="preimg/pre.gif" /> 
+<img src="preimg/pre.gif" width="32%" /> 
+
 # 引用图片
-<img src="https://github.com/w446108264/XhsEmoticonsKeyboard/raw/master/output/chat-qqemoticon.png" width="32%" /> 
-<img src="https://github.com/w446108264/XhsEmoticonsKeyboard/raw/master/output/chat-qqplug.png" width="32%" /> 
+<img src="https://github.com/w446108264/XhsEmoticonsKeyboard/raw/master/output/chat-qqemoticon.png" width="32%" /> <img src="https://github.com/w446108264/XhsEmoticonsKeyboard/raw/master/output/chat-qqplug.png" width="32%" /> 
 <img src="https://github.com/w446108264/XhsEmoticonsKeyboard/raw/master/output/chat-text.png" width="32%" /> 
 
 
